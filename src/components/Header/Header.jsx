@@ -12,7 +12,10 @@ const Header = () => (
                     <button className={style.button}>Поменять поздравление</button>
                     <button className={style.button}>Поменять фон</button>
                 </div>
+                
+                <Choices />
             </div>
+
         </Container>
     </header>
 );
